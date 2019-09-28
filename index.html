@@ -9,18 +9,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/78f7a4119c.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
 <!--nav bar-->
 <nav class="navbar navbar-expand-md bg-primary navbar-dark">
-  <a class="navbar-brand" href="index.html">Home</a>
+  <a class="navbar-brand" href="index.html">Mood Pizza</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="form.html">Form</a>
       </li> 
@@ -35,23 +39,31 @@
 <main>
   <div class="container text-center">
       <h3>
-          Pick the perfect pizza for tonights game
+        Pick the perfect pizza for tonights game
       </h3>
 
-      <br></br>
+      <br>
 
       <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='form.html'">
-          Go to Form
+        Go to Form
       </button>
       
-      <br></br>
+      <br>
+      <br>
 
       <h3>How it works</h3>
-      <p>First, you enter some details such as who you are, what your favourite sports teams are, 
-        your favourite ingredients for a pizza, etc. 
-        and using state-of-the-art google API's we determine what pizza you should buy at the given
-        moment. It is constantly updating based on the team that you 
+      <p>
+        First, you enter some details such as who you are, what your favourite sports teams are, 
+        your favourite pizzas, etc. and using state-of-the-art google API, we determine what pizza 
+        you should buy at the given moment. It is constantly updating to show you what pizza you 
+        should get. 
       </p>
+      <br>
+
+      <div class="fixed-right">
+        <i class="glyphicon glyphicon-check fa-9x far fa-grin"></i>
+        <i class="glyphicon glyphicon-check fa-9x far fa-frown"></i>
+      </div>
   </div>
 </main>
 
