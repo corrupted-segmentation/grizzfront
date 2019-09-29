@@ -1,3 +1,3 @@
- function submit() {
+ function runSubmit() {
     console.log($('form').serialize())
  }
