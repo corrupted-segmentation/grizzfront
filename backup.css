@@ -9,21 +9,24 @@
 }
 
 .color-3 {
-    background-color: #fb9224;
+    background-color: #d4cdc2;
 }
 
 .color-4 {
-    background-color: #fbe555;
+    background-color: #ffec7e;
 }
 
 .color-5 {
-    background-color: white;
+    background-color: #f3f3f3;
 }
 
 .t-color-3 {
-    color: #fbe555;
+    background-color: #d89e5f;
 }
 
+.t-color-5 {
+    color: white;
+}
 
 /* moving stuff */
 .result-stuff {
