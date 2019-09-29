@@ -16,6 +16,22 @@
     left: 25px !important;
 }
 
-.pizza {
-    display: flex;
+#vs {
+    position: relative !important;
+    top: 40px !important;
+}
+
+/* sorry i know its bad. Used in result.html */
+#move-it-1 {
+    position: relative !important;
+    right: 300px;
+}
+
+#move-it-2 {
+    position: relative !important;
+    right: 170px;
+}
+
+#move-it-3 {
+    margin: 20px;
 }
