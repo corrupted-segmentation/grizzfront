@@ -1,0 +1,19 @@
+{
+    "images": {
+        "pizzas": {
+            "pepperoni": "static/dlion.png",
+            "meat lovers": "http://www.hammockpizza.co/image/cache/pizza/meatlover-pizza-800x800.png",
+            "veggie": "http://www.hammockpizza.co/image/cache/pizza/vaggie-pizza-800x800.png",
+        },
+        "teams": {
+            "arizona cardinals": "https://static.nfl.com/static/site/img/logos/svg/teams/ARI.svg",
+            "atlanta falcons": "https://static.nfl.com/static/site/img/logos/svg/teams/ATL.svg",
+            "baltimore ravens": "https://static.nfl.com/static/site/img/logos/svg/teams/BAL.svg",
+            "buffalo bills": "https://static.nfl.com/static/site/img/logos/svg/teams/BUF.svg",
+            "carolina panthers": "https://static.nfl.com/static/site/img/logos/svg/teams/CAR.svg",
+
+            "lions": "http://www.hammockpizza.co/image/cache/pizza/vaggie-pizza-800x800.png",
+            "gb packers": "static/gbpackers.png"
+        }
+    }
+}
